@@ -51,11 +51,11 @@
              <div class="column is-2 has-text-centered">
                  <p class="footer-title">友情链接</p>
                  <ul>
-                    <li><a href="https://www.jianshu.com/u/67548e948c35" target="blank">简书</a> </li>
-                    <li><a href="https://www.cnblogs.com/liuguofu/" target="blank">博客园</a> </li>
-                    <li><a href="https://me.csdn.net/blog/qq_42463483" target="blank">CSDN</a></li>
-                    <li><a href="https://github.com/shiy-liu/study.git" target="blank">Github</a> </li>
-                    <li><a href="https://juejin.im/user/5be29da46fb9a049dc01b864" target="blank">掘金</a> </li>
+                    <li><a href="https://www.jianshu.com/u/67548e948c35" target="_self">简书</a> </li>
+                    <li><a href="https://www.cnblogs.com/liuguofu/" target="_self">博客园</a> </li>
+                    <li><a href="https://me.csdn.net/blog/qq_42463483" target="_self">CSDN</a></li>
+                    <li><a href="https://github.com/shiy-liu/study.git" target="_self">Github</a> </li>
+                    <li><a href="https://juejin.im/user/5be29da46fb9a049dc01b864" target="_self">掘金</a> </li>
                 </ul>
             </div>
         </div>
