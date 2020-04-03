@@ -8,8 +8,8 @@
  -->
 <template>
   <div class="container is-fuild">
-    <b-steps :animated="true" icon-prev="arrow-left" icon-next="arrow-right" v-model="activeStep">
-      <b-step-item label="确定吃饭人数" icon="account-multiple-check" columns>
+    <b-steps :animated="true" icon-pack='ionicons' icon-prev="arrow-back" icon-next="arrow-forward" v-model="activeStep">
+      <b-step-item label="确定吃饭人数" icon-pack='ionicons' icon="people" columns>
         <section class="column is-6 has-text-centered is-offset-3">
           <div class="block">
             <p class="content">
@@ -38,7 +38,7 @@
           </b-field>
         </section>
       </b-step-item>
-      <b-step-item label="确定主食" icon="rice">
+      <b-step-item label="确定主食" icon-pack='ionicons' icon='pizza'>
         <section class="column is-6 has-text-centered is-offset-3">
           <div class="block">
             <p class="content">
@@ -59,7 +59,7 @@
           <b-button type="is-success" @click="randStapleFood">随机主食</b-button>
         </section>
       </b-step-item>
-      <b-step-item label="确定菜品" icon="food">
+      <b-step-item label="确定菜品" icon-pack='ionicons' icon='restaurant'>
         <section class="column is-8 has-text-centered is-offset-2">
           <div class="block">
             <p class="content">
@@ -87,7 +87,7 @@
         </section>
         <b-button size="is-large" type="is-info" @click="activeStep=3">选好了！生成菜单</b-button>
       </b-step-item>
-      <b-step-item label="生成菜单" icon="silverware">
+      <b-step-item label="生成菜单" icon-pack='ionicons' icon="menu">
         <section>
           <div class="card">
             <div class="card-content">

@@ -20,7 +20,7 @@ const vueRouter = new Router({
       path:"/home",
       component:Home,
       children:[
-        {path:'', name:"index",component: () => import('../pages/index'), meta:{title:"首页"}},
+        {path:'', name:"index",component: () => import('../pages/index/index.vue'), meta:{title:"首页"}},
       ]
     },
     {
@@ -30,7 +30,31 @@ const vueRouter = new Router({
       meta:{
         title:"今晚吃啥"
       }
-    }
+    },
+    {
+      path:"/feedBack",
+      name:"feedBack",
+      component: () => import('../pages/feedBack/index.vue'),
+      meta:{
+        title:"留言墙"
+      }
+    },
+    {
+      path:"/resume",
+      name:"resume",
+      component: () => import('../pages/resume/index.vue'),
+      meta:{
+        title:"简历"
+      }
+    },
+    {
+      path:"/work",
+      name:"work",
+      component: () => import('../pages/work/index.vue'),
+      meta:{
+        title:"简历"
+      }
+    },
   ]   
 })
 export default vueRouter

@@ -1,0 +1,9 @@
+
+@font-face {  
+  font-family: 'lgf';
+  src: url('./Aquire-BW0ox.otf'),
+       url('./AquireBold-8Ma60.otf'),
+       url('./AquireLight-YzE0o.otf');
+  font-weight: normal;  
+  font-style: normal;  
+}
