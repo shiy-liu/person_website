@@ -55,7 +55,7 @@
                     <li><a href="https://www.jianshu.com/u/67548e948c35" target="_self">{{$t('linksJS')}}</a> </li>
                     <li><a href="https://www.cnblogs.com/liuguofu/" target="_self">{{$t('linksBK')}}</a> </li>
                     <li><a href="https://me.csdn.net/blog/qq_42463483" target="_self">CSDN</a></li>
-                    <li><a href="https://github.com/shiy-liu/study.git" target="_self">GithubBBBB</a> </li>
+                    <li><a href="https://github.com/shiy-liu/study.git" target="_self">GithubBA</a> </li>
                     <li><a href="https://juejin.im/user/5be29da46fb9a049dc01b864" target="_self">{{$t('linksJJ')}}</a> </li>
                 </ul>
             </div>
