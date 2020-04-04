@@ -21,7 +21,7 @@
             </b-navbar-item>
             <b-navbar-dropdown :label="lang">
                 <b-navbar-item href="#" @click="changeLanguage('中文')">
-                    中文
+                    中文h
                 </b-navbar-item>
                 <b-navbar-item href="#" @click="changeLanguage('English')">
                     English
