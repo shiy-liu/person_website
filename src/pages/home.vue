@@ -21,7 +21,7 @@
             </b-navbar-item>
             <b-navbar-dropdown :label="lang">
                 <b-navbar-item href="#" @click="changeLanguage('中文')">
-                    中文h
+                    中文
                 </b-navbar-item>
                 <b-navbar-item href="#" @click="changeLanguage('English')">
                     English
@@ -40,9 +40,9 @@
                 <ul class="links">
                     <li> <a  @click="showHot">{{$t('news')}}</a></li>
                     <li> <a  @click="eatWhat">{{$t('eat')}}</a></li>
-                    <li>{{$t('ticket')}}</li>
-                    <li>{{$t('nep')}}</li>
-                    <li>{{$t('iKnow')}}</li>
+                    <li><a href="#">{{$t('ticket')}}</a></li>
+                    <li><a href="#">{{$t('nep')}}</a></li>
+                    <li><a href="#">{{$t('iKnow')}}</a></li>
                 </ul>
             </div>
             <div class="column is-8 has-text-centered">
@@ -60,8 +60,9 @@
                 </ul>
             </div>
         </div>
-        <div class="my-footer">
-          <a href="http://www.beian.miit.gov.cn/" style="color:#aaa">京ICP备20007850号</a>
+        <div class="my-footer column is-12  is-full-mobile is-offset-4">
+          <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011202002175" style="display:inline-block;text-decoration:none;height:20px;line-height:20px; margin-right:10px;"><img src="../assets/images/index/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">京公网安备 11011202002175号</p></a>
+          <a href="http://www.beian.miit.gov.cn/" style="color:#aaa;height:20px;line-height:20px;display:inline-block">京ICP备20007850号</a>
         </div>
     </div>
 </template>
@@ -112,7 +113,7 @@ export default {
 .my-footer{
   padding-bottom:30px;
   margin: 0 auto;
-  width: 118px;
   font-size: 12px;
+  display: flex;
 }
 </style>

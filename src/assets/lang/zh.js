@@ -16,7 +16,7 @@ module.exports = {
       name:"留言墙",path:"/feedBack"
     },
     {
-      name:"博客",path:"/blog"
+      name:"博客",path:"http://www.liuguofu.top/iknow/"
     }
   ] ,
   title:"刘十弋个人学习网站",

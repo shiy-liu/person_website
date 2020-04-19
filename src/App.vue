@@ -26,13 +26,42 @@ export default {
 }
 </script>
 
-<style>
- @import "https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css";
+<style lang="scss">
+// // Import Bulma's core
+// @import "~bulma/sass/utilities/_all";
+// // Set your colors
+// $primary: red;
+// $primary-invert: findColorInvert($primary);
+// $twitter: #4099FF;
+// $twitter-invert: findColorInvert($twitter);
+// $danger:rgb(94, 219, 94);
+// $fontColor:#2c3e50;
+
+// // Setup $colors to use as bulma classes (e.g. 'is-twitter')
+// $colors: (
+//     "white": ($white, $black),
+//     "black": ($black, $white),
+//     "light": ($light, $light-invert),
+//     "dark": ($dark, $dark-invert),
+//     "primary": ($primary, $primary-invert),
+//     "info": ($info, $info-invert),
+//     "success": ($success, $success-invert),
+//     "warning": ($warning, $warning-invert),
+//     "danger": ($danger, $danger-invert),
+//     "twitter": ($twitter, $twitter-invert)
+// );
+
+// // Links
+// $link: $primary;
+// $link-invert: $primary-invert;
+// $link-focus-border: $primary;
 #app {
   font-family: 'lgf';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #000;
 }
-
+// Import Bulma and Buefy styles
+// @import "~bulma";
+// @import "~buefy/src/scss/buefy";
 </style>

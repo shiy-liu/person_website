@@ -16,7 +16,7 @@ module.exports = {
       name:"Feedback",path:"/feedBack"
     },
     {
-      name:"Blog",path:"/blog"
+      name:"Blog",path:"http://www.liuguofu.top/iknow/"
     }
   ],
   title:"Shiy.Liu's Website",

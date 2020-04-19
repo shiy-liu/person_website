@@ -15,13 +15,13 @@
       </div>
       <div class="column is-5 is-offset-1 is-full-mobile">
         <p class="title">{{$t('title')}}</p>
-        <ul class="column is-offset-4-mobile">
+        <ul class="column is-offset-3-mobile">
           <li v-for="(item,index) in demand" :key="index">
             {{$t(item)}}
           </li>
         </ul>
         <div class="columns is-mobile">
-          <div class="column is-full-mobile is-offset-4" style="margin-left:190px;">
+          <div class="column is-full-mobile is-offset-4" style="margin-left:130px;">
             <b-button type="is-danger" icon-pack="ionicons" icon-left="chatbubbles" rounded @click="snackbar">{{$t('wx')}}</b-button>
           </div>
         </div>
